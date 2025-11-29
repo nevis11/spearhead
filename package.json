@@ -1,0 +1,32 @@
+{
+  "name": "oo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite client/public",
+    "build": "tsc && vite build client/public",
+    "preview": "vite preview client/public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevis11/spearhead.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nevis11/spearhead/issues"
+  },
+  "homepage": "https://github.com/nevis11/spearhead#readme",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
+  }
+}
